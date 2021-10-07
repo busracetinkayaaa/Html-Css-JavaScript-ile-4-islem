@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Büşra Çetinkaya-200601067</title>
+    <script type="text/javascript">
+        function toplama() {
+            var sayi1 = parseInt(document.getElementById('sayi1').value);
+            var sayi2 = parseInt(document.getElementById('sayi2').value);
+            document.getElementById('sonuc').value = sayi1 + sayi2;
+        }
+        function cikarma() {
+            var sayi1 = parseInt(document.getElementById('sayi1').value);
+            var sayi2 = parseInt(document.getElementById('sayi2').value);
+            document.getElementById('sonuc').value = sayi1 - sayi2;
+        }
+        function carpma() {
+            var sayi1 = parseInt(document.getElementById('sayi1').value);
+            var sayi2 = parseInt(document.getElementById('sayi2').value);
+            document.getElementById('sonuc').value = sayi1 * sayi2;
+        }
+        function bolme() {
+            var deger1 = parseInt(document.getElementById('sayi1').value);
+            var deger2 = parseInt(document.getElementById('sayi2').value);
+            document.getElementById('sonuc').value = sayi1 / sayi2;
+        }
+    </script>
+</head>
+<body class ="ortala">
+    <div class="bg"> 
+<p>
+   200601067-Büşra Çetinkaya- Web Programlamaya Giriş
+</p>
+ <b>Birinci Sayı: </b></p>
+ <input type="text" id="sayi1" />
+ <p><b>İkinci Sayı:</b> </p>
+  <input type="text" id="sayi2" /> <br/>
+<p></p>
+<input type="button" class="btn" value="+" id="topla" onclick="toplama()" />
+<input type="button" class="btn" value="-" id="fark" onclick="cikarma()" />
+<input type="button" class="btn" value="*" id="carp" onclick="carpma()" />
+<input type="button" class="btn" value="/" id="bol" onclick="bolme()" /><br />
+ <b>Sonuç:</b>
+ <br /><input type="text" id="sonuc" />
+<p>   </p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mcsrseeFLc7EyjiKxu6MwW-7ZTc21QL1lA&usqp=CAU">
+</body>
+
+<style>
+    body {
+  text-align: center;
+}
+.ortala {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+.bg{
+            background: linear-gradient(to right,rgb(113, 94, 197),rgb(233, 229, 255));
+            height: auto;}
+
+.btn 
+{
+ background:#86aaec;
+ border:1px solid #3d69b9;
+ color:#000000; 
+font-weight:bold; 
+font-family:Verdana;
+font-size:14px; 
+width:60px;
+height:30px;
+}          
+            
+</style>
+</html>
